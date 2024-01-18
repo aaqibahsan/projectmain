@@ -1,0 +1,390 @@
+body {
+     margin: 0%;
+     background: #869b5b; 
+    }
+header {
+    background-color: #869b5b;
+    color: whitesmoke;
+    text-align: center;
+    /* font-size: 25px; */
+    padding:0%;
+    width: 100%;
+    font-size: 50px;
+
+}
+#mainheader {
+    background-color: #869b5b;
+    color: whitesmoke;
+    text-align: center;
+    /* font-size: 25px; */
+    padding:0%;
+    width: 100%;
+    font-size: 50px;
+}
+#mainimg-container {
+    position: relative;
+    width: 100%;
+}
+#mainimg {
+    width: 100%; 
+    height: auto;
+}
+.link-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    flex-direction: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+.link-overlay a {
+    color: #869b5b;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+#mainimg-container:hover .link-overlay a{
+    background-color: whitesmoke;
+}
+.content-1 {
+    background-color: whitesmoke;
+    display: flex; 
+    justify-content: space-around; 
+    color: #869b5b;
+    font-size: 20px;
+}
+.onepic {
+    height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.onepic img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.content {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #869b5b;
+    
+}
+.subheading {
+    background-color: whitesmoke;
+    padding: 20px;
+    font-size: 40px;
+    color: #869b5b;
+    align-items: center;
+
+
+}
+.subcontent {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.subcontent-1 {
+    background-color: whitesmoke;
+    display: flex; 
+    justify-content: space-around; 
+    color: #869b5b;
+    font-size: 20px; 
+}
+.subpic {
+    height: 100%;
+    width: 260%;
+    overflow: hidden;
+}
+.subpic img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+footer {
+    background-color:#afafaf;
+    color:#869b5b;
+    padding: 20px;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.footer-left {
+    max-width: 300px;
+}
+.footer-left img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.footer-right p{
+     font-size: 25px;
+}
+.footer-link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.footer-link a {
+    color:#869b5b;
+    text-decoration: none;
+    margin: 0 15px;
+    padding:5px 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+.footer-link a:hover {
+    background-color: whitesmoke;
+    color:#869b5b;
+}
+.content-info {
+    margin-top: 10px ;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-overlay p{
+    color: #afafaf;
+    font-size: 45px;
+    
+}
+#mainimg-container:hover .text-overlay p {
+    background-color: whitesmoke;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+th,td {
+    border: 2px solid #869b5b;
+    padding: 6px;
+    text-align: center;
+    background-color: whitesmoke; 
+
+}
+th {
+    background-color: whitesmoke;
+}
+.img-column img{
+    max-width: 100%;  
+    height: auto;
+    width: 400px;
+    
+}
+#logo {
+    width: 160px; 
+    height:  140px;
+}
+
+.link-overlay1 a {
+    color: #869b5b;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: whitesmoke;
+
+}
+.link-overlay1 {
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    width: 100%;
+    flex-direction: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    text-align: center;
+    padding: 20px;
+    text-align: center;    
+}
+
+#imgdepartment {
+    align-content: center;
+    height: auto;
+}
+
+.depcontent {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #869b5b;
+    font-size: 20px;
+}
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.flexbox-item {
+    flex: 0 0 calc(33%);
+    margin: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.flexbox-item img{
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+.linkofext{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #afafaf;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.linkofext-link {
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: #869b5b;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.linkofext img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+    th,td {
+        display: block;
+        width: 100%;
+    }
+    .img-column {
+        text-align: center;
+    }
+    .footer-content {
+        text-align: center;
+    }
+    .footer-left,.footer-right{
+        width: 100%;
+        max-width: none;
+    }
+    .footer-link {
+        flex-direction: column;
+
+    }
+    .footer-link a {
+        margin: 6px ;
+    }
+    .content {
+        flex-direction: column;
+    } 
+    .subcontent {
+        flex-direction: column;
+    }
+    .subcontent-1 {
+        flex-direction: column;
+    }
+    .subpic {
+        height: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .link-overlay {
+        position: relative;
+        
+        flex-direction: center;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        text-align: center;
+        
+        
+        
+    }
+    .link-overlay a {
+        color: #869b5b;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        position: absolute;
+        min-width: 160px;
+    }
+    
+    .flexbox-item {
+            flex: 0 0 calc(100% - 20px);
+        }
+    .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #869b5b;
+        color: whitesmoke;
+        padding: 12px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .flexbox-item img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .linkofext{
+        max-width: auto;
+        margin: 50px;
+        padding: 20px;
+        background-color: #afafaf;
+        text-align: center;
+    
+    }
+    }
+    
+    
+    #mainimg-container:hover .link-overlay a {
+        background-color: whitesmoke;
+    }
+    
+
+
+
