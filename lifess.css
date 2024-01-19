@@ -293,7 +293,7 @@ th {
 
 
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     th,td {
         display: block;
         width: 100%;
@@ -330,25 +330,18 @@ th {
         overflow: hidden;
     }
     .link-overlay {
-        position: relative;
-        
-        flex-direction: center;
-        display: inline-block;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-        text-align: center;
-        
-        
-        
+        flex-direction: column; /* Change to column layout for mobile */
     }
+
     .link-overlay a {
-        color: #869b5b;
-        text-decoration: none;
-        font-size: 24px;
-        font-weight: bold;
-        position: absolute;
-        min-width: 160px;
+        margin-top: 10px; /* Add some space between sandwich links */
+    }
+    .link-overlay1 {
+        flex-direction: column; /* Change to column layout for mobile */
+    }
+
+    .link-overlay1 a {
+        margin-top: 10px; /* Add some space between sandwich links */
     }
     
     .flexbox-item {
