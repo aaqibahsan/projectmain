@@ -127,6 +127,13 @@ footer {
         background: #869b5b; 
         width: 100%;
        }
+    .link {
+        flex-direction: column; 
+    }
+
+    .link a {
+        margin-top: 10px; 
+    }
        .content {
         flex-direction: column;
     } 
