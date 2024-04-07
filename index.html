@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="lifess.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
    <!--<h1 id="mainheader"> Wild Life of Srilanka.</h1> 
@@ -137,24 +138,27 @@ human beings, they established nature reserves, national parks, jungle corridors
 
 
 </footer> -->
-<body x-data="getPageData()">
-   <h1 x-text="mainHeader"></h1> 
-   <div id="mainimg-container">
-       <template x-if="mainImg">
-           <img id="mainimg" :src="mainImg">
-       </template>
-    </div>
-   
-   <div class="subcontent" x-for="(content, index) in subcontent" :key="index">
-       <template x-if="content.text">
-           <div class="subcontent-1" x-text="content.text"></div>
-       </template>
-       <template x-if="content.image">
-           <div class="subpic">
-               <img :src="content.image">
-           </div>
-       </template>
-   </div>
-<script src="https://cdn.jsdelivr.net/npm/alpinejs@2"></script>
-   <script src="index.js"></script>
+<body>
+    <header>
+        <h1 id="mainheader"></h1>
+        <img id="logo" src="">
+    </header>
+
+    <div id="content"></div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="" id="footerLogo">
+                <h2 id="tagline"></h2>
+                <p id="contactInfo"></p>
+            </div>
+            <div class="footer-right">
+                <p>Links</p>
+                <div id="footerLinks"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html> 
