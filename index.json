@@ -1,45 +1,58 @@
 {
-  "mainHeader": "Wild Life of Sri Lanka",
-  "mainImg": "./pictures/main.jpeg",
-  "subcontent": [
+  "pageTitle": "Home page",
+  "header": {
+    "title": "Wild Life of Sri Lanka.",
+    "image": "./pictures/main.jpeg"
+  },
+  "sections": [
     {
-      "text": "When pondering over the reasons to visit Sri Lanka..."
-    },
-    {
+      "title": "When pondering over the reasons to visit Sri Lanka...",
+      "content": "Thorough knowledge about this biodiversity can compel someone to visit Sri Lanka...",
       "image": "./pictures/1pic.jpeg"
     },
     {
-      "subheading": "Forests in Sri Lanka",
-      "subcontent": [
-        {
-          "text": "Sri Lanka is home to about four different types of forest..."
-        },
-        {
-          "image": "./pictures/subforest.jpeg"
-        }
+      "title": "Forests in Sri Lanka",
+      "content": "Sri Lanka is home to about four different types of forest...",
+      "image": "./pictures/subforest.jpeg",
+      "subItems": [
+        "Sinharaja",
+        "Yala"
       ]
     },
     {
-      "subheading": "Animals of Sri Lanka",
-      "subcontent": [
-        {
-          "text": "Sri Lanka is an island country in South Asia..."
-        },
-        {
-          "image": "./pictures/subanimal.jpeg"
-        }
-      ]
+      "title": "Animals of Sri Lanka",
+      "content": "Sri Lanka is an island country in South Asia...",
+      "image": "./pictures/subanimal.jpeg"
     },
     {
-      "subheading": "The Waterfalls of Sri Lanka",
-      "subcontent": [
-        {
-          "text": "Don't go chasing waterfalls…or do! Especially if you have a partner to share the experience with..."
-        },
-        {
-          "image": "./pictures/water.jpeg"
-        }
+      "title": "The Waterfalls of Sri Lanka",
+      "content": "Don't go chasing waterfalls…or do! Especially if you have a partner to share the experience with...",
+      "image": "./pictures/water.jpeg",
+      "subItems": [
+        "Laxapana Falls, Nuwara Eliya",
+        "Ravana Falls, Ella",
+        "Baker's Falls, Horton Plains",
+        "Bopath Ella, Ratnapura",
+        "Diyaluma Falls, Badulla"
       ]
     }
-  ]
+  ],
+  "footer": {
+    "logo": "./pictures/logo-no-background.png",
+    "tagline": "Dream Come True for nature lovers",
+    "contact": {
+      "email": "wildlifesl@slt.com",
+      "phone": "+940000000",
+      "address": "811A, Jayanthipura, Battaramulla, Sri Lanka"
+    },
+    "links": [
+      { "label": "Home", "url": "mainpage.html" },
+      { "label": "Intrudction to Sri Lankan Wild Life", "url": "Introtoslwildlife.html" },
+      { "label": "Department of WildLife", "url": "departmentpage.html" },
+      { "label": "Leopards", "url": "lepords.html" },
+      { "label": "Animals in Sri Lanka", "url": "animalsinsl.html" },
+      { "label": "Yala National Park", "url": "yala.html" },
+      { "label": "Wilpattu National Park", "url": "wilpatu.html" }
+    ]
+  }
 }
