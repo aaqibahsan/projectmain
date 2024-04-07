@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="lifess.css">
 </head>
 <body>
-   <h1 id="mainheader"> Wild Life of Srilanka.</h1> 
+   <!--<h1 id="mainheader"> Wild Life of Srilanka.</h1> 
    <div id="mainimg-container">
     <div class="link-overlay">
         <img id="logo" src="logo-no-background 2.png">
@@ -136,5 +136,25 @@ human beings, they established nature reserves, national parks, jungle corridors
 
 
 
-</footer>
+</footer> -->
+<body x-data="getPageData()">
+   <h1 x-text="mainHeader"></h1> 
+   <div id="mainimg-container">
+       <template x-if="mainImg">
+           <img id="mainimg" :src="mainImg">
+       </template>
+    </div>
+   
+   <div class="subcontent" x-for="(content, index) in subcontent" :key="index">
+       <template x-if="content.text">
+           <div class="subcontent-1" x-text="content.text"></div>
+       </template>
+       <template x-if="content.image">
+           <div class="subpic">
+               <img :src="content.image">
+           </div>
+       </template>
+   </div>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@2"></script>
+   <script src="index.js"></script>
 </html> 
