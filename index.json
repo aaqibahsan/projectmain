@@ -1,0 +1,45 @@
+{
+  "mainHeader": "Wild Life of Sri Lanka",
+  "mainImg": "./pictures/main.jpeg",
+  "subcontent": [
+    {
+      "text": "When pondering over the reasons to visit Sri Lanka..."
+    },
+    {
+      "image": "./pictures/1pic.jpeg"
+    },
+    {
+      "subheading": "Forests in Sri Lanka",
+      "subcontent": [
+        {
+          "text": "Sri Lanka is home to about four different types of forest..."
+        },
+        {
+          "image": "./pictures/subforest.jpeg"
+        }
+      ]
+    },
+    {
+      "subheading": "Animals of Sri Lanka",
+      "subcontent": [
+        {
+          "text": "Sri Lanka is an island country in South Asia..."
+        },
+        {
+          "image": "./pictures/subanimal.jpeg"
+        }
+      ]
+    },
+    {
+      "subheading": "The Waterfalls of Sri Lanka",
+      "subcontent": [
+        {
+          "text": "Don't go chasing waterfalls…or do! Especially if you have a partner to share the experience with..."
+        },
+        {
+          "image": "./pictures/water.jpeg"
+        }
+      ]
+    }
+  ]
+}
